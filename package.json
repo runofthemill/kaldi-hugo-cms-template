@@ -51,5 +51,8 @@
     "url-loader": "^0.5.7",
     "webpack": "^3.0.0",
     "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "postcss-font-magician": "^2.2.1"
   }
 }
