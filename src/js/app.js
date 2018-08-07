@@ -1,7 +1,9 @@
 // JS Goes here - ES6 supported
 (function(h, i, v, e, s, d, k) {h.HiveSDKObject = s;h[s] = h[s] || function() {(h[s].q = h[s].q || []).push(arguments);}, d = i.createElement(v), k = i.getElementsByTagName(v)[0];d.async = 1;d.id = s;d.src = e + "?r=" + parseInt(new Date() / 60000);k.parentNode.insertBefore(d, k);})(window, document, "script", "https://cdn-prod.hive.co/static/js/sdk-loader.js", "HIVE_SDK");
 
-HIVE_SDK("init", 113383, function(data) {
+HIVE_SDK("init", 113383, function(data) {  // Initialization success callback
+  // data.user contains info about the currently user (if availiable)
+  console.log(data);
 });
 
 var submit = document.getElementById("submit");
